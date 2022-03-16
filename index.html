@@ -4,36 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="syles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class = "container">
-        <div class = "calculadora">
-            <div class = "display">
-                <div id = "valor-anterior"></div>
-                <div id = "valor-actual"></div>
-            </div>
-            <button class = "col-2">C</button>
-            <button>&larr;</button>
-            <button class = "numero">%</button>
-            <button class = "numero">7</button>
-            <button class = "numero">8</button>
-            <button class = "numero">9</button>
-            <button class = "operador">X</button>
-            <button class = "numero">4</button>
-            <button class = "numero">5</button>
-            <button class = "numero">6</button>
-            <button class = "operador">-</button>
-            <button class = "numero">1</button>
-            <button class = "numero">2</button>
-            <button class = "numero">3</button>
-            <button class = "operador">+</button>
-            <button class = "col-2 numero">0</button>
-            <button class = "numero">.</button>
-            <button class = "operador">=</button>
-        </div>
-    </div>
+    <div class="coantainer">
+		<div class="title">
+			<div class="toggle">
+				<h3>Calc</h3>
+				<div class="right">
+					<p id="uno">1</p>
+					<p id="dos">2</p>
+					<p id="tres">3</p>
+				</div>
+			</div>
+			<div class="control">
+				<p>Theme</p>
+				<div class="box">
+					<div id="circle"></div>
+				</div>
+			</div>
+		</div>
+		<div class="screen">
+			<form name="calc">
+				<input type="text" name="text" readonly id="screen">
+			</form>
+		</div>
+		<div class="cal-body">
+			<div class="btn">
+				<button class="num">7</button>
+				<button class="num">8</button>
+				<button class="num">9</button>
+				<button class="del">DEL</button>
+				<button class="num">4</button>
+				<button class="num">5</button>
+				<button class="num">6</button>
+				<button class="operador">+</button>
+				<button class="num">1</button>
+				<button class="num">2</button>
+				<button class="num">3</button>
+				<button class="operador">-</button>
+				<button class="operador">.</button>
+				<button class="num">0</button>
+				<button class="operador">/</button>
+				<button class="operador">X</button>
+				<button class=>RESET</button>
+				<button class=>=</button>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
